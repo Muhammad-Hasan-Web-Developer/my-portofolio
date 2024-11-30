@@ -58,7 +58,7 @@ window.onload = function() {
         </style>
         <div class="welcome-overlay">
             <div class="welcome-box">
-                <img src="https://muhammad-hasan-web-developer.github.io/img/Hasan 1.jpg" alt="Welcome">
+                <img src="https://yayasangenerasijuara.school-network.net/UserDatabase/UserImages/5795730.jpg?1730881284137" alt="Welcome">
                 <h2>Welcome to My Portfolio!</h2>
                 <p>✨ Let's explore my portfolio together ✨</p>
                 <button onclick="this.parentElement.parentElement.remove()">Get Started!</button>
