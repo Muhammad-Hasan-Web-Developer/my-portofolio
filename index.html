@@ -1,414 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <script src="https://muhammad-hasan-web-developer.github.io/massage.js"></script>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="welcome to my portfolio">
-  <meta name="keywords"
-    content="Hasan, Haikal, Hasan Haikal, Muhammad, Muhammad Hasan Haikal, hasan, haikal, hasan haikal, muhammad hasan haikal, portofolio, portfolio, Portofolio Hasan, Portofolio Hasan Haikal">
-  <link rel="shortcut icon" href="https://muhammad-hasan-web-developer.github.io/hasan.jpg" type="image/x-icon">
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <!-- AOS Animation -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <!-- styling file  -->
-  <link rel="stylesheet" href="https://muhammad-hasan-web-developer.github.io/css/style.css">
-  <title>Hasan | Portofolio</title>
+<!DOCTYPE html>
+<html>
+
+<head> <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body {
+            background: linear-gradient(#550303, #06026b);
+            background-repeat: no-repeat;
+            background-size: width 100%;
+            background-attachment: fixed;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+        }
+
+        a:hover {
+            transform: scale(1.1);
+        }
+    </style>
 </head>
 
-<body id="home">
-  <nav class="navbar navbar-expand-lg navbar-dark shadow-lg rounded fixed-top navbari"
-    style="background: linear-gradient(to right, #550303, #06026b, #000000);">
-    <div class="container">
-      <img src="https://muhammad-hasan-web-developer.github.io/icon/Hasan 1.ico" alt="Me In Ferry"
-        class="d-inline-block align-text-top slide-in"
-        style="width: 50px; height: 50px; object-fit: cover; border-radius: 50%; margin: 20px auto !important; margin-right: 15px !important;">
-      <a id="#ba" class="navbar-brand slide-in" href="#" style="margin-left: 14px;">Muhammad Hasan</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#About">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Sertificate">Sertificates</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Projects">Projects</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <section class="jumbotron text-white text-center">
-    <img style="margin-top: 110px !important;" src="https://muhammad-hasan-web-developer.github.io/icon/Hasan 1.ico"
-      alt="Me In Ferry" class="profile-pic d-inline-block align-text-top"
-      style="width: 200px; height: 200px; object-fit: cover; border-radius: 50%;">
-    <br>
-    <h1 class="display-4">Muhammad Hasan Haikal</h1>
-    <p class="lead">Website & Voxels Game Designer</p>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#ffffff" fill-opacity="1"
-        d="M0,128L60,160C120,192,240,256,360,250.7C480,245,600,171,720,160C840,149,960,203,1080,192C1200,181,1320,107,1380,69.3L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
-      </path>
-    </svg>
-  </section>
-  <section id="About" class="slide-in-bottom">
-    <div class="container" data-aos="fade-down" data-aos-duration="1000">
-      <div class="row text-center">
-        <div class="col">
-          <h2>About Me</h2>
-        </div>
-      </div>
-      <div class="row justify-content-center fs-5 text-center mb-4">
-        <div class="col-md-4" data-aos="fade-right" data-aos-duration="2500">
-          <p>
-            I'm a student at <a href="https://generasijuara.sch.id/wp/"
-              style="text-decoration: none; color: #000000;">PKBM Generasi Juara</a>.
-            I'm 11 years old and I have skills in <strong>Website</strong> and <strong>Voxels
-              Game Design</strong>
-          </p>
-        </div>
-        <div class="col-md-4" data-aos="fade-left" data-aos-duration="2500">
-          <p>
-            <b>Skills:</b>
-            <span class="skill">
-              HTML :
-              <span class="skill-bar">
-                <span class="skill-percent">80%</span>
-              </span>
-            </span>
-            <span class="skill">
-              CSS :
-              <span class="skill-bar">
-                <span class="skill-percent">70%</span>
-              </span>
-            </span>
-            <span class="skill">
-              Website Designer :
-              <span class="skill-bar">
-                <span class="skill-percent">90%</span>
-              </span>
-            </span>
-            <span class="skill">
-              Voxel Designer :
-              <span class="skill-bar">
-                <span class="skill-percent">60%</span>
-              </span>
-            </span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Sertifikat -->
-  <section id="Sertificate">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#fff" fill-opacity="1"
-        d="M0,288L48,272C96,256,192,224,288,186.7C384,149,480,107,576,122.7C672,139,768,213,864,229.3C960,245,1056,203,1152,202.7C1248,203,1344,245,1392,266.7L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
-      </path>
-    </svg>
-    <div class="container">
-      <div class="row text-center text-white">
-        <div class="col">
-          <h2>My Certificates</h2>
-        </div>
-      </div>
-      <div class="row justify-content-evenly">
-        <!-- Sertifikat 1 -->
-        <div class="card mb-3" style="max-width: 540px;" data-aos="zoom-in-up">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="https://muhammad-hasan-web-developer.github.io/Muhammad Hasan Haikal_IT DASAR.png"
-                class="img-fluid rounded-start" alt="IT Extracurricular Certificate">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">IT Extracurricular Certificate</h5>
-                <p class="card-text"><small class="text-muted">5/July/2024, 13:59 Wib</small></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Sertifikat 2 -->
-        <div class="card mb-3" style="max-width: 540px;" data-aos="zoom-in-up">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="https://muhammad-hasan-web-developer.github.io/Muhammad Hasan Haikal_Desain Manual.png"
-                class="img-fluid rounded-start" alt="Design Extracurricular Certificate">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Design Extracurricular Certificate</h5>
-                <p class="card-text"><small class="text-muted">5/July/2024, 13:59 Wib</small></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#fff" fill-opacity="1"
-        d="M0,160L48,181.3C96,203,192,245,288,245.3C384,245,480,203,576,197.3C672,192,768,224,864,245.3C960,267,1056,277,1152,261.3C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-      </path>
-    </svg>
-  </section>
-  <section id="Projects">
-    <div class="container">
-      <div class="row text-center">
-        <div class="col ">
-          <h2>My Projects</h2>
-        </div>
-      </div>
-      <div class="row justify-content-center text-white">
-        <div class="col-md-4 mb-4" data-aos="flip-down" data-aos-delay="600">
-          <div class="card bg" style="width: 18rem; text-align: center;">
-            <iframe title="..." src="https://muhammad-hasan-web-developer.github.io/penelitianku-tentang-batu-batuan/"
-              style="width: 100%; height: 300px; border: none; border-radius: 8px;" loading="lazy" allowfullscreen>
-            </iframe>
-            <div class="card-body">
-              <h5 class="card-title">Rock Research Website</h5>
-              <p class="card-text">Rock Research Task, equipped with Digital Clock and Quiz</p>
-              <a href="https://muhammad-hasan-web-developer.github.io/penelitianku-tentang-batu-batuan/"
-                class="btn btn-primary">Visit site</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4" data-aos="flip-down" data-aos-delay="600">
-          <div class="card bg" style="width: 18rem; text-align: center;">
-            <iframe title="..." src="https://muhammad-hasan-web-developer.github.io/RisetObsidian.id/"
-              style="width: 100%; height: 300px; border: none; border-radius: 8px;" loading="lazy" allowfullscreen>
-            </iframe>
-            <div class="card-body">
-              <h5 class="card-title">Obsidian Research Website</h5>
-              <p class="card-text">Obsidian Rock Research Task, equipped with Quiz and footer</p>
-              <a href="https://muhammad-hasan-web-developer.github.io/RisetObsidian.id/" class="btn btn-primary">Visit
-                site</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4" data-aos="flip-down" data-aos-delay="600">
-          <div class="card bg" style="width: 18rem; text-align: center;">
-            <iframe title="..." src="https://muhammad-hasan-web-developer.github.io/Jakarta-Indonesia/"
-              style="background: #fff; width: 100%; height: 300px; border: none; border-radius: 8px;" loading="lazy"
-              allowfullscreen>
-            </iframe>
-            <div class="card-body">
-              <h5 class="card-title">Jakarta Indonesia</h5>
-              <p class="card-text">Adventure Game in Jakarta, not supporting smartphone devices</p>
-              <a href="https://muhammad-hasan-web-developer.github.io/Jakarta-Indonesia/" class="btn btn-primary">Visit
-                site</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="my-tools">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#fff" fill-opacity="1"
-        d="M0,288L48,272C96,256,192,224,288,186.7C384,149,480,107,576,122.7C672,139,768,213,864,229.3C960,245,1056,203,1152,202.7C1248,203,1344,245,1392,266.7L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
-      </path>
-    </svg>
-    <div class="container" data-aos="fade-down" data-aos-duration="3000">
-      <div class="row text-center text-white">
-        <div class="col">
-          <h2>My tools</h2>
-        </div>
-      </div>
-      <div class="row justify-content-evenly text-white">
-        <div class="col-md-3">
-          <div class="sketchfab-embed-wrapper"> <iframe title="Lenovo Ideapad 5" frameborder="0"
-              mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; xr-spatial-tracking"
-              xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share
-              src="https://sketchfab.com/models/2c01ab292c9f4e7aadc1a53570f04acb/embed?dnt=1"> </iframe> </div>
-          <br>
-          <br>
-          <p data-aos="fade-right">Laptop Lenovo Ideapad</p>
-        </div>
-        <div class="col-md-3">
-          <div class="sketchfab-embed-wrapper"> <iframe title="Logitech M235 Wireless Optical Mouse" frameborder="0"
-              mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; xr-spatial-tracking"
-              xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share
-              src="https://sketchfab.com/models/da401a897c5348e4a3108f10e1c5194d/embed?dnt=1"> </iframe> </div>
-          <br>
-          <br>
-          <p data-aos="fade-right">Logitech Mouse</p>
-        </div>
-        <div class="col-md-3">
-          <div class="sketchfab-embed-wrapper"> <iframe title="Earphone" frameborder="0" mozallowfullscreen="true"
-              webkitallowfullscreen="true" allow="autoplay; xr-spatial-tracking" xr-spatial-tracking
-              execution-while-out-of-viewport execution-while-not-rendered web-share
-              src="https://sketchfab.com/models/05dc771160df455ba58ef5c39dbd253c/embed?dnt=1"> </iframe> </div>
-          <br>
-          <br>
-          <p data-aos="fade-right">Lenovo Earphone</p>
-        </div>
-        <div class="row">
-          <div class="col">
-            <p>
-            <p data-aos="fade-right">
-              <img width="20px" src="https://muhammad-hasan-web-developer.github.io/vscode.png" alt="vscode.ico">Visual
-              Studio Code
-            </p>
-            <p data-aos="fade-left">
-              <i class="bi bi-github"></i> Github
-            </p>
-            <p data-aos="fade-right">
-              <img width="30px" src="https://muhammad-hasan-web-developer.github.io/bootstrap.png"
-                alt="bootstrap.ico">Bootstrap
-            </p>
-            <p data-aos="fade-left">
-              <img width="20px" src="https://muhammad-hasan-web-developer.github.io/xampp.ico" alt="xampp.ico"> Xampp
-            </p>
-            <p data-aos="fade-right">
-              <img width="20px" src="https://muhammad-hasan-web-developer.github.io/git.png" alt="git.ico"> Git
-            </p>
-            <p data-aos="fade-left">
-              <img width="30px" src="https://muhammad-hasan-web-developer.github.io/brave.png" alt="brave.ico"> Brave
-              Browser
-            </p>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#fff" fill-opacity="1"
-        d="M0,160L48,181.3C96,203,192,245,288,245.3C384,245,480,203,576,197.3C672,192,768,224,864,245.3C960,267,1056,277,1152,261.3C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-      </path>
-    </svg>
-  </section>
-  <section id="contact">
-    <div class="container" data-aos-duration="3000" data-aos="fade-down">
-      <div class="row text-center">
-        <div class="col">
-          <h2>Contact Me</h2>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-          <div class="mb-3">
-            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-              <i class="bi bi-send-check-fill" style="font-size: large;"></i> <strong>Thanks a bunch!</strong>
-              We got your message.
-              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-            <div class="alert alert-danger alert-dismissible fade show d-none gagal" role="alert">
-              <i class="bi bi-send-x" style="font-size: large;"></i> <strong>Oops!</strong>
-              Just a heads-up: Your message wasn't sent successfully.
-              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-            <form name="portofolio" method="post">
-              <label for="nama" class="form-label">Full Name</label>
-              <input type="text" class="form-control" placeholder="example" id="nama" aria-describedby="nama"
-                name="nama" autocomplete="name">
-          </div>
-          <div class="mb-3" data-aos="fade-right">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" placeholder="example@example.com" id="email"
-              aria-describedby="email" name="email" autocomplete="email">
-          </div>
-          <div class="mb-3" data-aos="fade-left">
-            <label for="tel" class="form-label">Phone Number
-              <h6 style="font-size: xx-small; color: rgb(146, 144, 144);">(opsional)</h6>
-            </label>
-            <input type="tel" class="form-control" placeholder="+1234567890" id="tel" aria-describedby="tel"
-              autocomplete="tel" name="tel">
-          </div>
-          <div class="mb-3" data-aos="fade-right">
-            <label for="pesan">Add your message here</label>
-            <textarea class="form-control" placeholder="hello example" id="pesan" name="pesan"></textarea>
-          </div>
-          <br>
-          <button data-aos="fade-left" type="submit" class="btn btn-primary btn-kirim" value="submit"><i
-              style="font-size: large;"></i>
-            Submit</button>
-          <button class="btn btn-primary btn-loading d-none" type="button" disabled>
-            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-            Loading...
-          </button>
-          </form>
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
-  <footer id="footer" style="height: 360px; position: relative;">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 290">
-      <path fill="#fff" fill-opacity="1"
-        d="M0,288L48,272C96,256,192,224,288,186.7C384,149,480,107,576,122.7C672,139,768,213,864,229.3C960,245,1056,203,1152,202.7C1248,203,1344,245,1392,266.7L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
-      </path>
-    </svg>
-    <div class="container" id="Credits" style="position: absolute; bottom: 30px; left: 0; right: 0;">
-      <div class="row text-center">
-        <div class="col">
-          <p>Copyright 2024 | Created by <a href="https://github.com/Muhammad-Hasan-Web"
-              style="text-decoration: none; color: #fff;"><i class="bi bi-github"></i> Muhammad-Hasan-Web</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <div class="visitor-counter">
-    <p>Visitors: <span id="visitorCount"></span></p>
-  </div>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <script src="https://muhammad-hasan-web-developer.github.io/js/script.js"></script>
-  <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbwPIQOluAeNUoVt3NDLwpB-MV6jKhlVRpMRz5wXGU8m5MBg76BEapAFL0DwwTwFrA_onw/exec'
-    const form = document.forms['portofolio']
-    const btnKirim = document.querySelector('.btn-kirim');
-    const btnLoading = document.querySelector('.btn-loading');
-    const myAlert = document.querySelector('.my-alert');
-    const gagal = document.querySelector('.gagal');
-
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      // ketika tombol submit diklik
-      // tampilkan tombol loading, hilangkan tombol kirim
-      btnLoading.classList.toggle('d-none');
-      btnKirim.classList.toggle('d-none');
-      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-        .then(response => {
-          // tampilkan tombol kirim, hilangkan tombol loading
-          btnLoading.classList.toggle('d-none');
-          btnKirim.classList.toggle('d-none');
-          // tampilkan alert
-          myAlert.classList.toggle('d-none');
-          // reset formnya
-          form.reset();
-          console.log('Success!', response)
-        })
-        .catch(error => {
-          btnLoading.classList.toggle('d-none');
-          btnKirim.classList.toggle('d-none');
-          // alert error terkirim
-          gagal.classList.toggle('d-none');
-          // reset formnya
-          form.reset();
-          console.error('Error!', error.message)
-        })
-    })
-  </script>
+<body>
+    <div style="text-align: center; color: white;"> <svg fill="white" xmlns="http://www.w3.org/2000/svg" width="160"
+            height="160" fill="" class="bi bi-tools" viewBox="0 0 16 16">
+            <path
+                d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3q0-.405-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708M3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z" />
+        </svg>
+        <h1>Sorry, this website is under maintenance.</h1>
+        <hr>
+        <p>We are currently working on the website. Please come back later.</p>
+        <p>You can contact us using this email</p>
+        <br>
+        <br>
+        <br>
+        <p>
+            <a style="background: linear-gradient(45deg, #ff6b6b, #4834d4);
+            border: none;
+            padding: 1em 2em;
+            color: white;
+            border-radius: 30px;
+            font-size: 1.1em;
+            cursor: pointer;
+            margin-top: 1em;
+            text-decoration: none;" href="mailto:muhammadhasan.genju@gmail.com">
+                <i class="bi bi-envelope"></i> muhammadhasan.genju@gmail.com
+            </a>
+        </p>
 </body>
 
 </html>
